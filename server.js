@@ -38,6 +38,7 @@ app.use("/api/credit-items", require("./routes/api/creditItems"));
 app.use("/api/person", require("./routes/api/person"));
 //app.use("/api/customer", require("./routes/api/customer"));
 app.use("/api/monitoringService", require("./routes/api/monitoringService"));
+app.use("/api/ai", require("./routes/api/ai"));
 
 // Serve static assets in production
 //if (process.env.NODE_ENV === "production") {
